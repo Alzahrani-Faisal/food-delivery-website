@@ -1,0 +1,624 @@
+/* Global styling */
+
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+button,
+.socials a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #A80E0E;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;    
+}
+
+button {
+    font-size: 20px;
+    width: 8.5rem;
+    height: 2.3rem;
+    color: white;
+    background-color: #fda901;
+    border-radius: 25px;
+    border: none;
+}
+
+.p1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.p2 {
+    padding-left: 10%;
+    font-size: 26px;
+}
+
+.p3 {
+    padding-left: 2rem;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.monsterrat {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.white-text {
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.rounded-corners {
+    border-radius: 25px;
+}
+
+.white-logo{
+    margin-right: 40%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container div {
+    width: 100%;
+    text-align: left;
+}
+
+.flex-container b,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #FFDD00;
+}
+
+.centered-table {
+    margin: 0 auto;
+}
+
+
+/* end of global styling */
+
+.whiteLogo {
+    width: 125px;
+    margin-top: 2rem;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-background {
+    background-image: url("../projectImages/party.png");
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 8rem;
+    background-position: left center;
+    background-size: cover;
+}
+
+.top-nav {
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+    position: fixed;
+    color: white;
+    opacity: 61%;
+    background-color: #281923;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.yellow-button-a:hover{
+    text-decoration: none !important;
+}
+.left-space{
+    margin-left: 35%;
+    left:auto; 
+}
+
+.top-nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+    opacity: 61%;
+    background-color: #281923;
+    margin-top: 10px;
+    border-right: 1px solid black;
+}
+
+.top-nav a:hover {
+    margin-top: 0;
+    border-top: 10px #FFAA00 solid;
+    border-right: 1px solid black;
+}
+
+.top-nav a.active {
+    opacity: 100%;
+    background-color: #A80E0E;
+    border-right: none;
+}
+
+
+
+/* Top section text styling */
+
+h1.title {
+    margin-top: 6rem;
+    font-size: 70px;
+}
+
+
+/* Yellow ribbon shape */
+
+.ribbon-shape {
+    margin-top: 5rem;
+    height: 11.6rem;
+    width: 49rem;
+    background-color: #FFAA00;
+    clip-path: polygon(0 0, 10% 50%, 0 100%, 100% 100%, 90% 50%, 100% 0);
+}
+.cart-quantity {
+    background-color: #FFDD00;
+    padding: 2px 2px;
+    color: #a70e0f;
+    font-weight: bold;
+}
+
+
+.ribbon-shape h3 {
+    font-size: 40px;
+    padding-left: 10%;
+    width: 70%;
+    padding-top: 5%;
+    font-weight: 400;
+}
+
+button.order-now {
+    color: #a70e0f;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+
+/* Menu section styling */
+
+.menu {
+    margin-top: 18.5rem;
+    text-align: center;
+    margin-left: 0%;
+}
+
+.menu nav a {
+    display: inline-block;
+    color: black;
+    margin-right: 8rem;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 0%;
+}
+
+.menu-background {
+    background-color: #FFAA00;
+    background-clip: border-box;
+    margin-left: 0%;
+}
+
+
+/* Contains triangle and the text below it and inside it */
+
+.triangle-container {
+    height: 50%;
+}
+
+.triangle {
+    font-size: 20px;
+    height: 10rem;
+    text-align: left;
+    clip-path: polygon(0 0, 0% 100%, 75% 50%);
+    background-color: #A70E0F;
+    
+}
+
+.triangle div{
+    display:flex;
+    align-items:center;
+}
+
+.triangle h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 40%;
+    padding-top: 3rem;
+    padding-left: 5%;
+}
+
+.triangle-container p {
+    padding-left: 10%;
+    font-size: 10px;
+}
+
+
+
+/* Gallery section styling */
+
+.gallery {
+    margin-top: 3rem;
+}
+
+.gallery a {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 26rem;
+    border-radius: 25px;
+}
+div.card{
+    border-radius: 25px;
+
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+.card img {
+    max-height: 25rem;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.contact {
+    background-color: #a70e0f;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.contact p {
+    margin-left: 1rem;
+}
+
+.contact nav {
+    margin-top: 3rem;
+}
+
+.contact a {
+    color: white;
+    margin-left: 2rem;
+}
+
+.full-image {
+    vertical-align: bottom;
+}
+
+.bottom-nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.bottom-nav h3 {
+    color: #a70e0f;
+}
+
+.container-contact {
+    position: absolute;
+    top: 15%;
+}
+
+.insta-container {
+    max-width: 500px
+}
+
+.insta-container img {
+    width: 146px;
+    height: 100px;
+    margin: 0.125rem;
+}
+
+.insta-container a {
+    width: 0;
+    height: 0;
+}
+
+.map-background {
+    background-image: url("../projectImages/map.png");
+    background-repeat: no-repeat;
+    height: 637px;
+    background-size: cover;
+}
+
+.bottom-nav ul {
+    padding-left: 0;
+}
+
+.padding-right {
+    padding-right: 3rem;
+}
+
+.triangle-container p {
+    padding-left: 10%;
+    width: 47%;
+    font-size: 20px;
+}
+
+.menu a:hover,
+.bottom-links a:hover {
+    color: #a70e0f;
+    font-weight: bolder;
+}
+
+.aligned10,
+.bottom-nav {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.padding10-left-right {
+    padding-right: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.margin-top-7rem {
+    padding-top: 6rem;
+}
+
+.top-nav-container {
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+}
+
+
+.navbar-box {
+    position: fixed;
+    background-attachment: fixed;
+    background-color: #281923;
+    background-size: cover;
+    opacity: 61%;
+    width: 100%;
+    height: 120px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+}
+
+.item-1 {
+    background-color: white;
+    align-self: flex-start;
+}
+
+.item-2 {
+    background-color: white;
+    align-self: center;
+}
+
+.item-3 {
+    background-color: white;
+    align-self: left;
+}
+
+.item-4 {
+    background-color: white;
+    align-self: flex-start;
+    width: 400px;
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+#red {
+    color: #A80E0E;
+}
+
+#white {
+    color: white;
+}
+
+button.btn1 {
+    color: #A80E0E;
+    background-color: white;
+    border: 4px #fda901 solid;
+    border-radius: 10px;
+    width: 50px;
+}
+
+button.btn1:hover {
+    background-color: #FFAA00;
+}
+
+div.box-div {
+    width: 600px;
+    height: 200px;
+}
+
+.btn-add {
+    float: right;
+}
+
+.btn-add-rev {
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #A80E0E;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2.left {
+    text-align: left;
+}
+
+div.box-div2 {
+    width: 900px;
+}
+
+tr:hover {
+    border-color: #ddd;
+    background-color: #ddd;
+}
+td,tr,table{
+    border: 1px solid  #a0a0a0 ;
+    border-collapse: collapse;
+}
+.table-colors{
+    background-color: #f2f2f2 ;
+}
+
+td,tr{
+padding: 7px;
+}
+.margin-7{
+    margin: 7px;
+}
+.name-box{
+ width: 1200px;
+ border-radius: 20px;
+ padding: 10px;
+ background-color: #f2f2f2;
+}
+.review-box{
+ width: 1200px;
+ height: 250px;
+ border-radius: 20px;
+ padding: 10px;
+ background-color: #f2f2f2;
+}
+.review-box:focus{
+    background-color: white;
+}
+.name-box:focus{
+    background-color: white;
+}
+
+
+
+.btn-counter{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    font-size: 22px;
+    margin-left: 10px;
+    color: #A80E0E;
+}
+.padding10-left{
+    padding-left: 10rem;
+}
+.hide{
+    display: none;
+}
+.flag{
+    color: red;
+}
+.fixed-width1000{
+    width: 1000px;
+    padding-top: 50%;
+}
+.padding-top{
+    padding-top: 7.5rem;
+}
+
+button.btn-gal {
+    font-size: 20px;
+    width: 8.5rem;
+    height: 2.3rem;
+    color: white;
+    background-color: #fda901;
+    border-radius: 25px;
+    border: none;
+}
+button.btn-gal:hover {
+   
+    background-color: #FFDD00;
+    
+}
